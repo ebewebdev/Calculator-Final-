@@ -142,6 +142,7 @@ function Compute(data) {
   //Creating the Async Function
 
   const getUrl = (num) => `http://numbersapi.com/${num}`;
+  
   const getFacts = async (num) => {
     try {
       const resp = await fetch(getUrl(num));
